@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  
+.App{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background: #ccc;
+}
+.heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+input{
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+#dropd{
+  border-radius: 15px;
+}
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: default;
+    outline: none;
+    padding: 8px 52px 8px 10px;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+.switch{
+  position:relative;
+  margin-top: 15px;
+  margin-left: 70px;
+  top: 10px;
+  color: red;
+  cursor: pointer;
+}
+h3, h2{
+  color: red;
+}
+button{
+  font-size: 17px;
+  font-weight: bolder;
+  position: relative;
+  margin-top: 10px;
+  left: 227px;
+  bottom: 40px;
+  cursor: pointer;
+}
